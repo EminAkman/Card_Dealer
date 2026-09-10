@@ -1,0 +1,1 @@
+Burası kard dağıtma makinesinin (CDM) yazılımının bulunduğu dosyalar bütününü içerir.

@@ -1,0 +1,1 @@
+Burası kart dağıtma makinesin alt bölmesinde bulunan devre elemanlarının, konnektörlerin, sensörlerin ve gerekli motorların bulunduğu parçaları içeren dosyalar bütünüdür.

@@ -1,0 +1,1 @@
+Burası kart dağıtma makinesin üst bölmesinde bulunan kartların karıştırılması ve sonrasında fırlatılması için aşağıdaki bölüme itildiği parçaları içeren dosya klasörüdür.

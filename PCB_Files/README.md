@@ -1,0 +1,1 @@
+Burası kart dağıtma makinesinin (CDM) elektronik devrelerinin ve bu devrelerin CAD dosyalarının bulunduğu dosyalar bölümüdür.

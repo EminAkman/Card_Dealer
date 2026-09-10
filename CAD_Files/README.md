@@ -1,0 +1,1 @@
+Burası CAD dosyalarını içeren klasörler bütünüdür.

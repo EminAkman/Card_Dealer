@@ -1,0 +1,1 @@
+Burası kart dağıtma makinesin orta bölmesinde bulunan kartların fırlatıldığı ve OLED ekranın bulunduğu parçaları içeren dosyalar bütünüdür.
