@@ -1,1 +1,3 @@
-Burası kard dağıtma makinesinin (CDM) yazılımının bulunduğu dosyalar bütününü içerir.
+# Kaynak Kodlar (Code)
+
+Bu dizin, Kart Dağıtıcı Makine'nin (CDM) mikrodenetleyici yazılımlarını ve kaynak kodlarını içerir.
