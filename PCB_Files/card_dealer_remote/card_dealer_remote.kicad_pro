@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "card_dealer.kicad_pro",
+    "filename": "card_dealer_remote.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -656,18 +656,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "card_dealer.kicad_sch",
-        "name": "Root",
+        "filename": "card_dealer_remote.kicad_sch",
+        "name": "card_dealer_remote",
         "uuid": "2e3b8c0c-09b7-4815-8add-fc3b430fe1dd"
       }
     ],
-    "used_designators": "SW1,R1-3,#PWR1-2,D1,C1-2,3V1,BT1,U1",
+    "used_designators": "SW1,R1-4,#PWR1-2,D1,C1-2,3V1,BT1,Q1,U1",
     "variants": []
   },
   "sheets": [
     [
       "2e3b8c0c-09b7-4815-8add-fc3b430fe1dd",
-      "Root"
+      "card_dealer_remote"
     ]
   ],
   "text_variables": {},

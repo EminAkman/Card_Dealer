@@ -1189,6 +1189,249 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:2N2219"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N2219"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-39-3"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "800mA Ic, 50V Vce, NPN Transistor, TO-39"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=E 2=B 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?39*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "2N2219_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N2219_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GNDREF"
 			(power global)
 			(pin_numbers
@@ -1348,6 +1591,12 @@
 		(uuid "1bc99324-6215-4696-8af4-7c95ac08996d")
 	)
 	(junction
+		(at 87.63 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25d7d936-bd6c-4fc0-b9fc-f6e13454712b")
+	)
+	(junction
 		(at 58.42 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1372,10 +1621,10 @@
 		(uuid "c1bb8aea-d5b1-4853-812f-3a3cb8c9ea5a")
 	)
 	(junction
-		(at 87.63 85.09)
+		(at 76.2 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ce4bd4e6-2605-4aa7-9526-a0bab673c31a")
+		(uuid "c83b60f0-9fc5-47ef-8308-f228583cefc0")
 	)
 	(junction
 		(at 58.42 63.5)
@@ -1415,13 +1664,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 66.04) (xy 104.14 66.04)
+			(xy 104.14 49.53) (xy 104.14 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2189a837-9fd1-421f-9113-6384af6dcf06")
+		(uuid "20f0ff76-5655-4f4a-96d7-bbb727ecea90")
 	)
 	(wire
 		(pts
@@ -1475,13 +1724,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 66.04) (xy 104.14 71.12)
+			(xy 104.14 71.12) (xy 104.14 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a052cc7-97a6-44db-b26d-3a000ec0ef7c")
+		(uuid "49971fad-ebfe-47b0-ab73-3ae7ba1cdd3a")
 	)
 	(wire
 		(pts
@@ -1505,6 +1754,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 57.15) (xy 104.14 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d634fbe-3c78-456e-aa33-1768e4087302")
+	)
+	(wire
+		(pts
 			(xy 53.34 41.91) (xy 53.34 44.45)
 		)
 		(stroke
@@ -1525,7 +1784,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 66.04) (xy 93.98 66.04)
+			(xy 83.82 66.04) (xy 88.9 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1542,6 +1801,26 @@
 			(type default)
 		)
 		(uuid "8b804ba2-05c3-498d-8ddf-8b8823b0dc6a")
+	)
+	(wire
+		(pts
+			(xy 87.63 85.09) (xy 104.14 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93fa9573-8b2b-48b0-83e8-db2c810eaa4c")
+	)
+	(wire
+		(pts
+			(xy 95.25 44.45) (xy 104.14 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7fac5d-0437-49dc-81c2-0406593f9375")
 	)
 	(wire
 		(pts
@@ -1605,6 +1884,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 44.45) (xy 87.63 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c06f9f33-34f9-4e34-b2ae-3c31e0b1ff8d")
+	)
+	(wire
+		(pts
 			(xy 53.34 81.28) (xy 53.34 85.09)
 		)
 		(stroke
@@ -1612,16 +1901,6 @@
 			(type default)
 		)
 		(uuid "cc4cc4de-014c-4f4a-9f23-3723e1de142e")
-	)
-	(wire
-		(pts
-			(xy 104.14 78.74) (xy 104.14 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cca77621-b538-4c47-889d-c7af4c7aba49")
 	)
 	(wire
 		(pts
@@ -1685,16 +1964,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 85.09) (xy 87.63 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff591b44-d13e-4828-9bfb-691c78c578df")
-	)
-	(wire
-		(pts
 			(xy 53.34 63.5) (xy 58.42 63.5)
 		)
 		(stroke
@@ -1702,86 +1971,6 @@
 			(type default)
 		)
 		(uuid "ffac2ea7-476f-4ec8-a7c8-0dd603ccfb95")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 97.79 66.04 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1dd4c560-340c-45e4-bbf1-90a5873b7dc6")
-		(property "Reference" "R3"
-			(at 97.79 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 97.79 62.23 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 97.79 67.818 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 97.79 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ed7d049e-8993-4b80-ba05-c76a3bd19973")
-		)
-		(pin "1"
-			(uuid "1704790d-a43d-4927-9601-a77fd2e63f09")
-		)
-		(instances
-			(project "card_dealer"
-				(path "/2e3b8c0c-09b7-4815-8add-fc3b430fe1dd"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GNDREF")
@@ -1853,7 +2042,7 @@
 			(uuid "e914b742-7f41-40fb-858d-260b17bd8e56")
 		)
 		(instances
-			(project "card_dealer"
+			(project "card_dealer_remote"
 				(path "/2e3b8c0c-09b7-4815-8add-fc3b430fe1dd"
 					(reference "#PWR01")
 					(unit 1)
@@ -1863,7 +2052,7 @@
 	)
 	(symbol
 		(lib_id "LED:IR204A")
-		(at 104.14 76.2 270)
+		(at 104.14 52.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1874,29 +2063,29 @@
 		(fields_autoplaced yes)
 		(uuid "3729f43d-c389-48c7-9689-fde03f776795")
 		(property "Reference" "D1"
-			(at 107.95 73.7869 90)
+			(at 106.68 51.9429 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "IR204A"
-			(at 107.95 76.3269 90)
+			(at 106.68 54.4829 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
-			(at 108.585 76.2 0)
+			(at 99.695 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1907,7 +2096,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR204-A.pdf"
-			(at 104.14 74.93 0)
+			(at 104.14 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1918,7 +2107,7 @@
 			)
 		)
 		(property "Description" "Infrared LED , 3mm LED package"
-			(at 104.14 76.2 0)
+			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1935,9 +2124,90 @@
 			(uuid "fcfa563b-cd51-496c-97ec-5db6f32f0e2c")
 		)
 		(instances
-			(project "card_dealer"
+			(project "card_dealer_remote"
 				(path "/2e3b8c0c-09b7-4815-8add-fc3b430fe1dd"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 92.71 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "48520c53-bfc0-4b82-b4c0-1a60fdbf8e97")
+		(property "Reference" "R3"
+			(at 91.44 68.326 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1K"
+			(at 90.932 70.104 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 92.71 67.818 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 92.71 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "20ca62b8-4dec-4843-a770-4ca5b9486f05")
+		)
+		(pin "1"
+			(uuid "42940dda-daa8-4d07-a07b-430ebdebcd14")
+		)
+		(instances
+			(project "card_dealer_remote"
+				(path "/2e3b8c0c-09b7-4815-8add-fc3b430fe1dd"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2016,7 +2286,7 @@
 			(uuid "6d43ca36-8fb8-43f0-947f-180433bfb7f0")
 		)
 		(instances
-			(project "card_dealer"
+			(project "card_dealer_remote"
 				(path "/2e3b8c0c-09b7-4815-8add-fc3b430fe1dd"
 					(reference "R1")
 					(unit 1)
@@ -2113,9 +2383,90 @@
 			(uuid "3187cf60-8df2-4f66-a886-4298e795f90e")
 		)
 		(instances
-			(project "card_dealer"
+			(project "card_dealer_remote"
 				(path "/2e3b8c0c-09b7-4815-8add-fc3b430fe1dd"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 91.44 44.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "717325a0-ed2c-4dd7-be4f-615397a90a7e")
+		(property "Reference" "R4"
+			(at 90.17 46.736 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33"
+			(at 89.662 48.514 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 91.44 46.228 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 91.44 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b152e7fa-091e-4adb-82db-eb9c67be6d59")
+		)
+		(pin "1"
+			(uuid "675ad0de-ee94-4fda-ba85-77809c645547")
+		)
+		(instances
+			(project "card_dealer_remote"
+				(path "/2e3b8c0c-09b7-4815-8add-fc3b430fe1dd"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2195,7 +2546,7 @@
 			(uuid "e4b841c3-882f-424f-be8d-df259102de2f")
 		)
 		(instances
-			(project "card_dealer"
+			(project "card_dealer_remote"
 				(path "/2e3b8c0c-09b7-4815-8add-fc3b430fe1dd"
 					(reference "C1")
 					(unit 1)
@@ -2277,7 +2628,7 @@
 			(uuid "1fcc6b36-4799-481d-8ce6-7c8b2703a488")
 		)
 		(instances
-			(project "card_dealer"
+			(project "card_dealer_remote"
 				(path "/2e3b8c0c-09b7-4815-8add-fc3b430fe1dd"
 					(reference "C2")
 					(unit 1)
@@ -2355,7 +2706,7 @@
 			(uuid "142cd23b-6f2c-40e8-98af-3aa0cde5f23f")
 		)
 		(instances
-			(project "card_dealer"
+			(project "card_dealer_remote"
 				(path "/2e3b8c0c-09b7-4815-8add-fc3b430fe1dd"
 					(reference "#PWR02")
 					(unit 1)
@@ -2468,7 +2819,7 @@
 			(uuid "44245a45-e4a5-4ee6-9dd7-9ddc1112fd5f")
 		)
 		(instances
-			(project "card_dealer"
+			(project "card_dealer_remote"
 				(path "/2e3b8c0c-09b7-4815-8add-fc3b430fe1dd"
 					(reference "3V1")
 					(unit 1)
@@ -2549,9 +2900,119 @@
 			(uuid "5d8cd926-9d28-46c3-90f7-6f39f79c1143")
 		)
 		(instances
-			(project "card_dealer"
+			(project "card_dealer_remote"
 				(path "/2e3b8c0c-09b7-4815-8add-fc3b430fe1dd"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N2219")
+		(at 101.6 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5cb38c9-482e-4464-a13f-5bf8f7117709")
+		(property "Reference" "Q1"
+			(at 106.68 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N2219"
+			(at 106.68 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-39-3"
+			(at 106.68 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF"
+			(at 101.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "800mA Ic, 50V Vce, NPN Transistor, TO-39"
+			(at 101.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 101.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 101.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "9c820a5c-cac5-4a20-b12a-4db8c76dcfc9")
+		)
+		(pin "2"
+			(uuid "7b70f554-e39e-4a6c-aabd-9aea36e3c192")
+		)
+		(pin "1"
+			(uuid "b3ac6150-224f-4b40-8fa6-d6f49be7816b")
+		)
+		(instances
+			(project "card_dealer_remote"
+				(path "/2e3b8c0c-09b7-4815-8add-fc3b430fe1dd"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -2630,7 +3091,7 @@
 			(uuid "4a3641a6-424a-4b42-beeb-39f9b6781383")
 		)
 		(instances
-			(project "card_dealer"
+			(project "card_dealer_remote"
 				(path "/2e3b8c0c-09b7-4815-8add-fc3b430fe1dd"
 					(reference "R2")
 					(unit 1)
