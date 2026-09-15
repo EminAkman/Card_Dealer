@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Proje",
+      "type": "shell",
+      "command": "cmake --build Code/Card_Dealer/build/Debug",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "Flash Karta Yükle",
+      "type": "shell",
+      "command": "openocd -f interface/stlink.cfg -f target/stm32f4x.cfg -c 'program Code/Card_Dealer/build/Debug/Card_Dealer.elf verify reset exit'",
+      "dependsOn": "Build Proje",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ea/Card_Dealer/Code/Card_Dealer/build/cmake_install.cmake",
+		"/home/ea/Card_Dealer/Code/Card_Dealer/build/cmake/stm32cubemx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
