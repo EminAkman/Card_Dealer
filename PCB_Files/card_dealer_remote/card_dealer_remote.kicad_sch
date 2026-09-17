@@ -2154,7 +2154,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "4.7K"
 			(at 90.932 70.104 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2165,7 +2165,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 92.71 67.818 90)
 			(hide yes)
 			(show_name no)
@@ -2246,7 +2246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 56.642 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -2325,7 +2325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 73.66 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2413,7 +2413,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "100"
 			(at 89.662 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2424,7 +2424,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 91.44 46.228 90)
 			(hide yes)
 			(show_name no)
@@ -2506,7 +2506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 88.5952 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2588,7 +2588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 54.3052 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3051,7 +3051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 51.562 67.31 90)
 			(hide yes)
 			(show_name no)
