@@ -70,7 +70,24 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "invalid_outline|66150000|65900000|57a1e191-222f-4056-a4f4-a6d3f731cc66|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "unconnected_items|61700000|60500000|F.Cu|4|0e1be666-2a43-4e24-a78f-7911ab24f8b5|8e88bf0b-17ba-4227-b32b-b4bf6f0aa97d",
+          ""
+        ],
+        [
+          "unconnected_items|67550000|68100000|F.Cu|4|da8c0a13-638e-4b35-9b80-a8243c00f19c|373952c8-f203-4c9a-8da9-2fc74d586b96",
+          ""
+        ],
+        [
+          "unconnected_items|80690000|67990000|F.Cu|4|67c7943c-2155-4f6d-9dc0-69b0ae03b450|904d0dfc-0ea0-46e1-ab42-a5f59da72a06",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -88,10 +105,10 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "error",
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
@@ -526,7 +543,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "card_dealer_remote.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -661,7 +678,7 @@
         "uuid": "2e3b8c0c-09b7-4815-8add-fc3b430fe1dd"
       }
     ],
-    "used_designators": "SW1,R1-4,#PWR1-2,D1,C1-2,3V1,BT1,Q1,U1",
+    "used_designators": "SW1,R1-4,#PWR1-2,D1,BT1,C1-2,3V1,Q1,U1",
     "variants": []
   },
   "sheets": [
