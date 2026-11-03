@@ -72,10 +72,6 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         [
-          "invalid_outline|66150000|65900000|57a1e191-222f-4056-a4f4-a6d3f731cc66|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "unconnected_items|61700000|60500000|F.Cu|4|0e1be666-2a43-4e24-a78f-7911ab24f8b5|8e88bf0b-17ba-4227-b32b-b4bf6f0aa97d",
           ""
         ],
@@ -189,6 +185,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -200,6 +197,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -211,6 +209,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -533,8 +532,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
